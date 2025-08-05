@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy JAR file
-COPY target/*.jar app.jar
+COPY target/rest-api.jar app.jar
 
 # Run the JAR
 CMD ["java", "-jar", "app.jar"]
