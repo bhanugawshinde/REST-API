@@ -11,10 +11,11 @@ public class RestTemplateCode {
 		super();
 		
 		
-		bookClient.addBook(new Book("java"));
-		bookClient.addBook(new Book("python"));
-		bookClient.addBook(new Book("web technology"));
-		bookClient.addBook(new Book("Oracle"));
+		/*
+		 * bookClient.addBook(new Book("java")); bookClient.addBook(new Book("python"));
+		 * bookClient.addBook(new Book("web technology")); bookClient.addBook(new
+		 * Book("Oracle"));
+		 */
 		
 		getAllBooks();
 
